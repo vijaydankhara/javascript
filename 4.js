@@ -73,13 +73,13 @@
 
 
 // 7.  print even no. up to n
-// let num =Number(prompt("Enter the number :- "))
-// for(let i=1;i<=num;i++)
-// {
-//     if(i%2==0)
-//     console.log(i);
+let num =Number(prompt("Enter the number :- "))
+for(let i=1;i<=num;i++)
+{
+    if(i%2==0)
+    console.log(i);
 
-// }
+}
 
 
 
