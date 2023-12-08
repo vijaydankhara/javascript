@@ -103,6 +103,6 @@
 
 
 // 17. -> split()
-let data="Java$ sc$ript is the$ wolrd`s most $popular$ progra$mming lan$uage.$world";
-// console.log(data.split("$"));  // where $   change to string
+let data="Java$ sc$ript is the$ wolr$d`s most $popular$ progra$mming lan$uage.$world";
+console.log(data.split("$"));  // where $   change to string
 console.log(data.split(""));     // singel char  
