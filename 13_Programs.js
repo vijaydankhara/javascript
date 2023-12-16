@@ -36,17 +36,17 @@
 // console.log(output);
 
 ///////////////////////////////////////////////////////////
-4.
+// 4.
 // function findLongestWord(str) {
 //     let words = str.split(' ');
 //     let longestWord = '';
-  
+
 //     for (let i = 0; i < words.length; i++) {
 //       if (words[i].length > longestWord.length) {
 //         longestWord = words[i];
 //       }
 //     }
-  
+
 //     return longestWord;
 //   }
 //   let sentence = 'Web Development Tutorial';
@@ -55,18 +55,26 @@
 
 
 //////////////////////////////////////////
-// 5. Write a JavaScript function that checks whether a number is perfect.
-// function isPerfectNumber(number) {
-//     let sum = 0;
-    
-//     for (let i = 1; i < number; i++) {
-//       if (number % i === 0) {
-//         sum += i;
-//       }
-//     }
-    
-//     return sum === number;
-//   }
-//   console.log(isPerfectNumber(6)); // Output: true
-//   console.log(isPerfectNumber(28)); // Output: true
-//   console.log(isPerfectNumber(12)); // Output: false
+// 5. Write a JavaScript function that checks whether a number is perfect().
+
+function pernum(number) {
+    let sum = 0;
+
+    for (let i = 1; i < number; i++) {
+        if (number % i === 0) {
+            sum += i;
+        }
+    }
+
+    if (sum === number) {
+        console.log("Number is :-", +number);
+        console.log("This Is A Perfect Number");
+    } else {
+        console.log("Number is :-", +number);
+        console.log("This Is A Not Perfect Number");
+    }
+}
+let number = Number(prompt("enter value"))
+pernum(number);
+
+
