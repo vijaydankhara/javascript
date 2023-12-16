@@ -67,10 +67,10 @@ function pernum(number) {
     }
 
     if (sum === number) {
-        console.log("Number is :-", +number);
+        console.log("Number is ====> ", +number);
         console.log("This Is A Perfect Number");
     } else {
-        console.log("Number is :-", +number);
+        console.log("Number is ====> ", +number);
         console.log("This Is A Not Perfect Number");
     }
 }
