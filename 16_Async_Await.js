@@ -68,21 +68,21 @@
 
 
 {
-    // let promise1 = new Promise(function (resolve, reject) {
-    //     setTimeout(function () {
-    //         resolve('Promise 1 resolved')
-    //     }, 2000);
-    // });
-    // let promise2 = new Promise(function (resolve, reject) {
-    //     setTimeout(function () {
-    //         resolve('Promise 2 resolved')
-    //     }, 3000);
-    // });
-    // let promise3 = new Promise(function (resolve, reject) {
-    //     setTimeout(function () {
-    //         resolve('Promise 3 resolved')
-    //     }, 4000);
-    // });
+    let promise1 = new Promise(function (resolve, reject) {
+        setTimeout(function () {
+            resolve('Promise 1 resolved')
+        }, 2000);
+    });
+    let promise2 = new Promise(function (resolve, reject) {
+        setTimeout(function () {
+            resolve('Promise 2 resolved')
+        }, 3000);
+    });
+    let promise3 = new Promise(function (resolve, reject) {
+        setTimeout(function () {
+            resolve('Promise 3 resolved')
+        }, 4000);
+    });
 
     async function asyncFunc() {
         let result1 = await promise1;
