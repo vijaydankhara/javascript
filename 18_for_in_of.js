@@ -42,8 +42,7 @@
 let person = {
     name: "Hardik Pandya",
     team: "Mumbai",
-    postion: "Captan",
-   
+    postion: "Captan", 
     age: 28,
     email: "Hardik@33.in"
 };
