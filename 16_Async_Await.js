@@ -45,7 +45,7 @@
 // The use of await pauses the async function until the promise returns a result (resolve or reject) value. 
 
 {
-    // // a promise
+    // a promise
     // let promise = new Promise(function (resolve, reject) {
     //     setTimeout(function () {
     //     resolve('Promise resolved')}, 4000); 
@@ -84,18 +84,18 @@
     //     }, 4000);
     // });
 
-    // async function asyncFunc() {
-    //     let result1 = await promise1;
-    //     console.log(result1);
+    async function asyncFunc() {
+        let result1 = await promise1;
+        console.log(result1);
         
-    //     let result2 = await promise2;
-    //     console.log(result2);
+        let result2 = await promise2;
+        console.log(result2);
 
-    //     let result3 = await promise3;
-    //     console.log(result3);
-    // }
+        let result3 = await promise3;
+        console.log(result3);
+    }
 
-    // asyncFunc();
+    asyncFunc();
 
 }
 
