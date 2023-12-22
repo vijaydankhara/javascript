@@ -1,4 +1,4 @@
-// 'use strict';
+//  'use strict';
 
 {
     // myVariable = 9;   
@@ -83,7 +83,7 @@
 }
 
 // 4. Duplicating a parameter name is not allowed.
-
+ 
 {
     // "use strict";
     
